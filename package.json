@@ -3,10 +3,10 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "prepare:app": "cd resources/frontend/app && yarn install",
-    "serve:app": "cd resources/frontend/app && yarn run serve",
-    "build:app": "cd resources/frontend/app && yarn run build",
-    "lint:app": "cd resources/frontend/app && yarn run lint",
-    "test:app": "cd resources/frontend/app && yarn run test:unit"
+    "prepare:app": "cd resources/frontend && yarn install",
+    "serve:app": "cd resources/frontend && yarn run dev",
+    "build:app": "cd resources/frontend && yarn run build",
+    "lint:app": "cd resources/frontend && yarn run lint",
+    "test:app": "cd resources/frontend && yarn run test:unit"
   }
 }
