@@ -7,6 +7,7 @@
     "serve:app": "cd resources/frontend && yarn run dev",
     "build:app": "cd resources/frontend && yarn run build",
     "lint:app": "cd resources/frontend && yarn run lint",
-    "test:app": "cd resources/frontend && yarn run test:unit"
+    "test:app": "cd resources/frontend && yarn run test:unit",
+    "move:assets": "cp -r resources/frontend/dist/spa/* public/ && rm public/index.html && cp resources/frontend/dist/spa/index.html resources/views/app.blade.php"
   }
 }
